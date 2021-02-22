@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="https://kit.fontawesome.com/2bd4b0382e.js" crossorigin="anonymous"></script>
+    <title>Упражнение на верстку №2</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <figure class="header__logo">
+            <img src="img/logo.png" alt="Logo">
+        </figure>
+        <div class="header__offer">
+            <div class="header__offer-title">
+                Clear, smart, attractive design 
+            </div>
+            <div class="header__offer-subtitle">
+                for your app, logo, website
+            </div>
+        </div>
+        <div class="header__read-more">
+            <a href="#" class="header__link">read more</a>
+        </div>
+    </div>
+</header>
+        <main>
+            <nav class="nav">
+                <ul>
+                    <li class="nav__item nav__item_active"><a href="#">home</a></li>
+                    <li class="nav__item"><a href="#">about us</a></li>
+                    <li class="nav__item"><a href="#">portfolio</a></li>
+                    <li class="nav__item"><a href="#">contact</a></li>    
+                </ul>
+            </nav>
+            <section class="about">
+                <div class="container">
+                    <div class="about__title title">
+                        about
+                    </div>
+                    <div class="about__text">
+                        We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor.<br> 
+    In our design process, we make sure to stay one step ahead of the latest trends, <br>
+    never forgetting to abide by key web standards.
+                    </div>
+                    <div class="about__columns">
+                        <div class="about__column">
+                            <div class="column__imagebox">
+                                <img src="img/web_icon.jpg" alt="Web icon">
+                            </div>
+                            <div class="column__title">
+                                WEB
+                            </div>
+                            <div class="column__text">
+                                <p>
+                                    We tend to deliver unique and 
+functional design, through 
+innovation and creativity.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="column__imagebox">
+                                <img src="img/ios_icon.jpg" alt="iOS">
+                            </div>
+                            <div class="column__title">
+                                iOS AND ANDROID
+                            </div>
+                            <div class="column__text">
+                                <p>
+                                    We seek to bring new businesses and 
+customers closer together through valuable 
+insights and proper targeting.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="column__imagebox">
+                                <img src="img/marketing_icon.jpg" alt="Marketing">
+                            </div>
+                            <div class="column__title">
+                                MARKETING
+                            </div>
+                            <div class="column__text">
+                                <p>
+                                    We’ll help you establish the right goals 
+and build the right paths. Success depends 
+on setting the right intention.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="portfolio__title title">
+                    portfolio
+                </div>
+                <div class="portfolio__menu">
+                    <ul class="portfolio__menu-list">
+                        <li class="portfolio__menu-item portfolio__menu-item_active"><a href="#">all</a></li>
+                        <li class="portfolio__menu-item"><a href="#">web</a></li>
+                        <li class="portfolio__menu-item"><a href="#">apps</a></li>
+                        <li class="portfolio__menu-item"><a href="#">other</a></li>
+                    </ul>
+                </div>
+                <div class="portfolio__content">
+                    <div class="portfolio__content-item">
+
+                    </div>
+                    <div class="portfolio__content-item">
+                        
+                    </div>
+                    <div class="portfolio__content-item">
+                        
+                    </div>
+                    <div class="portfolio__content-item">
+                        
+                    </div>
+                    <div class="portfolio__content-item">
+                        
+                    </div>
+                    <div class="portfolio__content-item">
+                        
+                    </div>
+                </div>
+                <div class="portfolio__read-more">
+                    <a href="#">read more</a>
+                </div>
+            </section>
+
+            <section class="partners">
+                <div class="partners__container">
+                    <div class="partners__title">
+                        <span>
+                            Our partners
+                        </span>
+                    </div>
+                    <div class="partners__logos">
+                        <div class="partner__logo">
+                            <img src="img/logo-2.png" alt="Logo 2">
+                        </div>
+                        <div class="partner__logo">
+                            <img src="img/archiq-logo.png" alt="Archiq">
+                        </div>
+                        <div class="partner__logo">
+                            <img src="img/thomson-logo.png" alt="Thomson">
+                        </div>
+                        <div class="partner__logo">
+                            <img src="img/alex-logo.png" alt="Alex">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="contact__title">
+                    contact
+                </div>
+                <div class="contact__form">
+                    <div class="contact__form-body">
+                        <form method="post" action="mail.php" class="contact__emailform">
+                            <div class="contact__form-personal-data">
+                                <div class="name-email">
+                                    <div class="contact__form-name">
+                                        <label for="name">your name</label>
+                                        <input id="name">
+                                    </div>
+                                    <div class="contact__form-email">
+                                        <label for="email">your email</label>
+                                        <input type="email" id="email">
+                                    </div>
+                                </div>
+                                <div class="contact__form-message">
+                                    <label for="message">message</label>
+                                    <textarea name="message" id="message" cols="30" rows="10">message</textarea>
+                                </div>
+                                <a href="#" onClick="contact__emailform.submit();" class="">send</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact__form-data">
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>

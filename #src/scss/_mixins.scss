@@ -1,0 +1,29 @@
+@mixin flex-position($center: "true") {
+    display: flex;
+
+    @if $center == "true" {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@mixin dimensions ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin absolute($top: "2px", $left: "2px", $right: "2px") {
+    position: absolute;
+
+    @if $top != "2px" {
+        top: $top;
+    }
+
+    @if $left != "2px" {
+        left: $left;
+    }
+
+    @if $right != "2px" {
+        right: $right;
+    }
+}
